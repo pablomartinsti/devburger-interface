@@ -4,9 +4,7 @@ import * as yup from "yup";
 
 import logo from '../../assets/logo.svg'
 import { Button } from '../../components/Button';
-
-
-import { Container, LeftContainer, RightContainer, Form, InputContainer, Title } from '../../containers/Login/styles'
+import { Container, LeftContainer, RightContainer, Form, InputContainer, Title } from './styles'
 
 
 export function Login() {
@@ -25,8 +23,6 @@ export function Login() {
 
 
     const onSubmit = data => console.log(data);
-
-
 
 
     return (
